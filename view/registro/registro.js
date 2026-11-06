@@ -108,7 +108,7 @@ function registrar(){
                     },
                     didClose: function(){
                         clearInterval(timerInterval);
-                        window.location.href = "../../index.php";
+                        window.location.href = "/login";
                     },
                 }).then(function(result){
                     if (result.dismiss === Swal.DismissReason.timer) {

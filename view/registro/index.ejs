@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <title>Registro | Valeria García - Seguridad Informática I</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
@@ -73,7 +73,7 @@
                                         </form>
 
                                         <div class="mt-5 text-center" style="margin-top: 0rem!important;">
-                                            <p class="text-muted mb-0">Ya tiene una cuenta? <a href="../../index.php" class="text-primary fw-semibold"> Acceder </a> </p>
+                                            <p class="text-muted mb-0">Ya tiene una cuenta? <a href="/login" class="text-primary fw-semibold"> Acceder </a> </p>
                                         </div>
                                     </div>
                                     <div class="mt-4 mt-md-5 text-center" style="margin-top: 1rem!important;">
@@ -85,7 +85,7 @@
                         <!-- end auth full page content -->
                     </div>
 
-                    <?php require_once("../html/carrusel.php")?>
+                    <%- include("../html/carrusel") %>
 
                 </div>
                 <!-- end row -->
@@ -113,3 +113,5 @@
     </body>
 
 </html>
+
+

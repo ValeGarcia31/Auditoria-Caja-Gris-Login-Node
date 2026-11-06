@@ -2,6 +2,7 @@ config/config.local.php
 .env
 *.log
 logs/
+node_modules/
 include/vendor/
 docs/Backup*.sql
 docs/template/

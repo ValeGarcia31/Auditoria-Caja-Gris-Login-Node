@@ -22,7 +22,7 @@ $(document).on("submit", "#restablecer_form", function(event){
                 icon: "success",
                 confirmButtonColor: "#5156be",
             }).then(function(){
-                window.location.href = "../../index.php?m=5";
+                window.location.href = "/login?m=5";
             });
         } else if (datos === "2") {
             Swal.fire({
